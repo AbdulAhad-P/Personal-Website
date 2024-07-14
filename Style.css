@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+body{
+   
+    margin: 0 auto;
+}
+#name{
+   color: tomato;
+}
+
+#uper{
+    background-image:url(photo/header-bg.png);
+    width: 100%;
+    height: 500px;
+}
+.half-width{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+img{
+    width: 500px;
+   height: 500px;
+ }
+
+ .half-width p{
+    padding: 10px 0 25px 0;
+ }
+ .button {
+     text-decoration: none;
+     border: 2px  ;
+     border-radius: 10px;
+     background-image: linear-gradient( 45deg ,lightsalmon,tomato );
+     padding: 10px 5px;
+ }
+
+ .button:hover{
+    color: aliceblue;
+    background-color: transparent;
+ }
+
+ h2{
+    margin-top: 20px;
+ }
+ .half {
+    width: 33%;
+    float: left;
+    height: 500px;
+    padding-top: 30px;
+}
+#midle{
+    text-align: center;
+}
+#lower{
+    padding-top: 40px;
+    width: 100%;
+    height: 500px;
+    padding-bottom: 120px;
+}
+#center{
+   background-image: url(photo/footer-bg.png) ;
+    width: 100%;
+    height: 500px;
+    padding-top:90px ;
+    text-align: justify;
+}
+#client{
+    background-image: url(photo/biography-bg.png);
+    height: 450px;
+    
+    
+}
+#last{
+    padding-top: 20px;
+    text-align: center;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+.same{
+    text-align: justify;
+}
+#founder{
+    text-align: center;
+}
+#box{
+    text-align: center;
+    border: 2px ;
+    padding-top: 35px;
+   margin-left: 650px;
+   margin-right: 650px;
+   padding-bottom: 35px;
+   background-image: linear-gradient( 45deg ,lightsalmon,tomato );
+   
+}
+footer p{
+    text-align: center;
+    padding-top: 40px;
+}
